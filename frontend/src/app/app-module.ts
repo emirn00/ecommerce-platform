@@ -7,12 +7,14 @@ import { LoginPage } from './pages/login-page/login-page';
 import { RegisterPage } from './pages/register-page/register-page';
 import {ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { Dashboard } from './pages/dashboard/dashboard';
 
 @NgModule({
   declarations: [
     App,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    Dashboard
   ],
   imports: [
     BrowserModule,
